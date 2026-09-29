@@ -1,7 +1,14 @@
 {
-  "name": "@mutasimalmu/GuardCondition",
+  "name": "guard-condition",
   "version": "1.0.0",
-  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "description": "Declarative conditional rendering for React — replace nested ternaries with Match, Match.When, and Match.Default.",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,13 +16,20 @@
   "keywords": [
     "react",
     "condition",
-    "reder",
+    "render",
     "list",
     "match",
     "switch"
   ],
   "author": "Mutasim Al-Mualimi <mutasim.business2020@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmersEmperor/guard-condition"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
   "devDependencies": {
     "@types/react": "19.3.0",
     "react": "^19.3.0",

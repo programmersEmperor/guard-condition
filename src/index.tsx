@@ -1,4 +1,5 @@
-import React, { PropsWithChildren, ReactElement, ReactNode } from "react";
+import React from "react";
+import type { PropsWithChildren,  ReactElement, ReactNode } from "react";
 
 interface WhenProps {
 	condition: boolean;
